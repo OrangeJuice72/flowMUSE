@@ -526,6 +526,8 @@ h2 {
   margin: 0;
   line-height: 1.8;
   white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .action-row {
@@ -581,6 +583,7 @@ h2 {
 }
 
 @media (max-width: 980px) {
+  .workspace-grid,
   .structure-layout,
   .two-column {
     grid-template-columns: 1fr;
@@ -605,6 +608,12 @@ h2 {
   .hero-header,
   .panel {
     padding: 22px;
+  }
+
+  .prompt-output,
+  .loaded-panel {
+    min-height: 0;
+    padding: 18px;
   }
 
   .tab-button {

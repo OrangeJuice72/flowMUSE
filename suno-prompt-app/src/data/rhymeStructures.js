@@ -1,0 +1,22 @@
+export const rhymeStructures = [
+  "AABB",
+  "ABAB",
+  "ABBA",
+  "AAAA",
+  "AABA",
+  "ABCB",
+  "ABCBDB",
+  "Free Verse",
+  "Internal Rhyme Heavy",
+  "Slant Rhyme",
+  "Chain Rhyme",
+  "Monorhyme",
+  "Alternating Rhyme",
+  "Couplets",
+  "Triplets",
+  "Rubaiyat",
+  "Terza Rima",
+  "Villanelle Echo",
+  "Mixed Scheme",
+  "No End Rhyme"
+];
